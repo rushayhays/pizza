@@ -1,0 +1,54 @@
+body {
+    background-color: orangered;
+    margin:0;
+    padding:0;
+}
+
+header {
+    background-color: greenyellow;
+    margin:0;
+}
+
+h1 {
+    padding-left: 1em;
+}
+
+
+.aPizza {
+    display:flex;
+    flex-direction: column;
+    padding-left: 2em;
+}
+
+h3 {
+    color:white;
+}
+
+
+p {
+    background-color: white;
+    padding:0em .0em 0em .25em;
+    color:black;
+}
+
+.pizzaNameDisplay {
+    max-width: 9em;
+}
+
+.pizzaPriceDisplay {
+    max-width: 3em;
+}
+
+.pizzaCrustDisplay {
+    max-width: 5em;
+}
+
+.pizzaToppingNumDisplay {
+    max-width: 3em;
+}
+
+.pizzaToppingList {
+    max-width:15em;
+    background-color: white;
+}
+
