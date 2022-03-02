@@ -12,10 +12,38 @@
         <h1>Pizza Maker</h1>
     </header>
     <main>
-        <section class="pizzaDisplayCase">
-            <!-- This is where the js inserts the pizza stuff -->
-        </section>
+        <div class="dataArea">
+            <form id="link">
+                <label class="pizzaOptionLabel" for="pizzaOption">Choose a Pizza:</label>
+                    <select id="pizzaOption" name="pizzaOption" size="1">
+                    <option value="baconArtichoke">Bacon Artichoke</option>
+                    <option value="meatLovers">Meat Lovers</option>
+                    <option value="veggieDelight">Veggie Delight</option>
+                    </select>
+                    <br>
+                    <input class="SubmitButton" type="submit" name="SUBMITBUTTON" value="Submit" style="font-size:12px; "/>
+            </form>
+            <section class="pizzaDisplayCase">
+                <!-- This is where the js inserts the pizza stuff -->
+            </section>
+        </div>
+        <image id="pizzaPie" src="/NicePng_pizza-clipart-png_897350.png" alt="pizza with different toppings on every slice"></image>
     </main>
+
     <script type="module" src="/scripts/main.js"></script>
 </body>
 </html>
+
+<!-- <form id="link">
+    <select multiple="multiple">
+        <option value="">Choose links</option>
+        <option value="http://stackoverflow.com/">Stackoverflow</option>
+        <option value="http://google.com/">Google</option>
+        <option value="http://yahoo.com/">Yahoo</option>
+        <option value="http://bing.com/">Bing</option>
+        <option value="http://php.net/">PHP official</option>
+        <option value="http://w3c.org">W3C</option>
+    </select>
+    <br>
+    <input class="SubmitButton" type="submit" name="SUBMITBUTTON" value="Submit" style="font-size:20px; "/>
+</form> -->

@@ -8,6 +8,18 @@ header {
     background-color: greenyellow;
     margin:0;
 }
+main {
+    display:flex;
+}
+
+.pizzaOptionLabel{
+    color:white;
+}
+
+#pizzaPie {
+    margin-left:20em;
+    max-height: 20em;
+}
 
 h1 {
     padding-left: 1em;
@@ -48,7 +60,8 @@ p {
 }
 
 .pizzaToppingList {
-    max-width:15em;
+    max-width:16em;
     background-color: white;
+    padding-right: 1em;
 }
 
